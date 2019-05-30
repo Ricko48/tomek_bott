@@ -1,6 +1,10 @@
 import discord
-from random import randint
-
+from discord.ext import commands
+from discord.ext.commands import Bot
+import asyncio
+import random
+import requests
+import os
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -36,13 +40,13 @@ class MyClient(discord.Client):
 
         for i in strings:
             if i == 'tomek' or i == 'tomas' or i == 'tomik' or i == 'Tomas' or i == 'Tomik' or i == 'Tomek':
-                await message.channel.send(response_tomek[randint(0, len(response_tomek) - 1)])
+                await message.channel.send(response_tomek[random.randint(0, len(response_tomek) - 1)])
                 return
 
         for j in response_do:
             for k in strings:
                 if j == k:
-                    await message.channel.send(response_[randint(0, len(response_) - 1)])
+                    await message.channel.send(response_[random.randint(0, len(response_) - 1)])
                     return
 
         for i in strings:
@@ -54,7 +58,7 @@ class MyClient(discord.Client):
         for i in strings:
             for j in hello:
                 if i == j:
-                    await message.channel.send(hello[randint(0, len(hello) - 1)])
+                    await message.channel.send(hello[random.randint(0, len(hello) - 1)])
                     await message.channel.send('{0.author.mention}'.format(message))
                     break
 
@@ -62,13 +66,13 @@ class MyClient(discord.Client):
         for i in strings:
             for j in pb071:
                 if i == j:
-                    await message.channel.send(pb071_response[randint(0, len(pb071_response) - 1)])
+                    await message.channel.send(pb071_response[random.randint(0, len(pb071_response) - 1)])
                     break
 
         for i in strings:
             for j in game:
                 if i == j:
-                    await message.channel.send(game_response[randint(0, len(game_response) - 1)])
+                    await message.channel.send(game_response[random.randint(0, len(game_response) - 1)])
                     break
 
 
