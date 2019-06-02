@@ -1,1 +1,1 @@
-web: python fbtestbot.py
+web: python my_bot.py
