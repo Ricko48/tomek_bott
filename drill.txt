@@ -1,0 +1,4201 @@
+[
+  {
+    "name": "Je následující tvrzení pravdivé? \"hlavièkovı soubor vkládáme do zdrojového kódu vyuívajícího jeho funkce pomocí direktivy #include\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Datovı typ struct vytváøí sloenı datovı typ skládající se z nìkolika poloek, které mohou mít rùznı datovı typ\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Makro assert() se vyuívá pøi ladìní pro detekci a lokalizaci porušení podmínek, které by mìli vdy platit\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce main má druhı argument typu char** se jménem argv. Tento argument obsahuje poèet argumentù zadanıch na pøíkazové øádce pøi spuštìní programu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Podmínky preprocesoru jsou vyhodnocovány za bìhu programu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo register doporuèuje pøekladaèi, aby umístil promìnnou do registru procesoru a optimalizoval tak rychlost pøístupu k ní\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Norma POSIX poskytuje rozšíøení standardní knihovny jazyka C o funkce pro práci s vlákny\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"vıraz array[3] vrací hodnotu tøetího prvku pole \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Mezi základní datové typy patøí int, float, double a char\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Po plytkém zkopírování (operátor =) struktury obsahující ukazatel dojde k automatické alokaci pamìti, na kterou ukazatel ukazuje.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rychlost funkce memcpy() je vdy stejná jako kopírování poloek v cyklu for \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Mezi základní datové typy patøí int, real, float a char\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Jazyk C nemá podporu pro zpracování širokıch znakù napø. abecedy unicode.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Funkce popen() pro spouštìní pøíkazù shellu se neliší od funkce system()\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"*(array + 2) vrací hodnotu tøetího prvku pole\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo volatile u promìnné znaèí monost její zmìny i mimo náš zdrojovı kód (napø. pøerušením)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Preprocesor provádí syntaktickou analızu kódu jazyka C a odhalí porušení pravidel typového systému jazyka C \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce main má tøetí argument typu char** se jménem envp. Tento argument obsahuje (v pøípadì pøekladaèe gcc) promìnné prostøedí ve formátu jmeno=hodnota.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Struktura spojovaného seznamu pamìovì úspornìjší ne pole.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Jméno promìnné mùe zaèínat èíslicí \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Hodnoty vypoètené ve funkci lze pøedávat pouze návratovou hodnotou nebo pøes globální promìnné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"POSIX je plnì implementován i na operaèních systémech, které vycházejí z MS Windows NT (MS Windows NT 3.51 - MS Windows 8.1 resp. MS Windows 2012 Server).\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Strict aliasing je zaveden z dùvodu zvìtšení robustnosti programu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo goto se nedoporuèuje pouívat, nebo typicky vede k ménì èitelnému a provázanìjšímu kódu \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pole musí bıt vdy pravoúhlá, tj. poèet prvkù v øádku je pro všechny øádky stejnı\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce time() vrací èas s pøesností na 1 sekundu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Unit testy poskytují robustní specifikaci oèekávaného chování komponenty\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnná typu funkèní ukazatel nespecifikuje jméno funkce, její adresu bude obsahovat\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Operátor pøiøazení = má nízkou prioritu vyhodnocení\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"zápis mimo alokované pole nemusí zpùsobit vıjimku, mùe ale modifikovat ostatní promìnné a jiná data\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud chci programu pøedávat jako argumenty na pøíkazové øádce jméno uivatele a jeho vìk, funkce main bude deklarovaná jako main(char *jmeno, int vek);\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo static zpùsobí zachování poslední hodnoty promìnné i pokud je opuštìn blok s její definicí\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pokud není v hlavièkovém souboru definice funkce, je nutné ji poskytnout v samostatném souboru\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Norma POSIX poskytuje rozšíøení standardní knihovny jazyka C o funkce pro procházení adresáøù a zjištìní obsaenıch souborù\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Polokou struktury mùe bıt ukazatel.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"textovı øetìzec v C je pole znakù ukonèenıch bajtem s hodnotou 0\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo static zpùsobí zachování poslední hodnoty promìnné i mezi rùznımi spuštìními programu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Ukazatel nelze pøetypovat. Jakmile je jednou v lokálním kontextu vytvoøen, nelze ho v tomto kontextu mìnit.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce mùe mít více argumentù\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Poøadí vyhodnocení vırazu nelze ovlivnit pouitím závorek\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce pro práci s pamìtí (memXXX) lze pøi jednom volání pouít pouze na souvislou èást pamìti u kadého z argumentù\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Pøi zavolání funkce system() se èeká na dokonèení jím spuštìného pøíkazu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Integraèní testy testují korektnost spolupráce nìkolik komponent mezi sebou\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Makro assert() je v Release reimu (definováno makro NDEBUG) odstranìno vèetnì vyhodnocované podmínky\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typovı systém podporuje abstrakci reprezentace èísel\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo auto je defaultní pamìová tøída pro lokální promìnné\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud implementujeme dvojrozmìrné pole pomocí jednorozmìrného pole, tak bude taková implementace vdy vyadovat více pamìového prostoru ne pøímá deklarace pole jako dvojrozmìrné.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Hluboká kopie struktury je nutná jen v pøipadì, e daná struktura obsahuje poloku typu ukazatel.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Promìnné je nutné pøed prvním pouitím deklarovat spoleènì s datovım typem\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Regresní testy testují opakování vıskytu døíve nalezené (a opravené) chyby\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Operátor sekvenèního provedení ponechává vısledek všech vırazù\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo register je defaultní pamìová tøída pro lokální promìnné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud chceme získat hodnotu z rozsahu 0 a 37 vèetnì, pouijeme volání rand() % 38\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud nedojde ke zápisu dat do pamìti, tak lze typovou konverzi na bitové úrovni zmìnit na pøedchozí datovı typ\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pole automaticky mìní svoji velikost tak, aby do ní bylo moné umístit indexovanı prvek\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Jednotlivé poloky v datovém typu struct jsou umístìny v pamìti na stejné poèáteèní adrese\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo auto u promìnné znaèí její alokaci v tzv. automatickıch registrech\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"Vıraz array + 1 vrací hodnotu druhého prvku pole array \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Zápis (*promenna).energy je ekvivalentní zápisu promenna->energy v pøípadì, e promìnná je ukazatelového typu struct a obsahuje poloku energy.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkci lze deklarovat i definovat zároveò\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Jazyk C poskytuje v normì C99 funkce pro práci s vlákny\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Bitovı operátor & vrací na dané bitové pozici hodnotu 1, pokud jsou odpovídající bity obou argumentù rovny 1\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Standardní knihovna jazyka C neobsahuje funkci pro ádnı øadící algoritmus, je nutné vyuít externích knihoven\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Makro assert() se nepouívá pro ošetøování korektnosti uivatelského vstupu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pole mùe mít velikost pro alokaci zadánu a za bìhu programu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Jazyk C poskytuje v normì C99 funkce pro procházení adresáøù a zjištìní obsaenıch souborù\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pro uchování širokıch znakù napø. abecedy unicode lze vyuít datovı typ wchar_t\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Preprocesor umoòuje provádìt podmínìnı pøeklad\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnné typu struct nelze dynamicky alokovat\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pomocí operátoru & lze získat adresu promìnné\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Všechny nenulové hodnoty jsou v logickıch vırazech povaovány za PRAVDU (TRUE)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Preprocesor neprovádí syntaktickou analızu kódu jazyka C \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Norma POSIX poskytuje rozšíøení standardní knihovny jazyka C o funkce pro správu bìících procesù\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"zøetìzení øetìzcù se v C realizuje pomocí operátoru +\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce getenv() se pouívá pro zjištìní aktuálnì bìícího externího pøíkazu nebo programu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"V jazyce C se všechny konverze typù dìjí plnì automaticky.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud aplikujeme operátor = na dvì promìnné typu char*, tak dojde ke zkopírování jejich obsahu vèetnì koncové nuly.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Funkce popen() umoòuje asynchronnì spustit pøíkaz shellu a komunikovat s ním pomocí roury (pipe)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typ hodnoty urèuje zpùsob, jakım bude hodnota interpretována\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Po skoku na klauzuli case se pokraèuje ve vykonávání kódu a do dosaení pøíkazu break.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pomocí operátoru * lze získat adresu promìnné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Datovı typ enum nelze pouít jako vıèet pojmenovanıch èíselnıch konstant èísel s desetinnou èárkou\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Adresu uloenou v promìné typu funkèní ukazatel lze za bìhu programu mìnit\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo extern informuje pøekladaè, e definice promìnné nebo funkce se nachází v jiném zdrojovém souboru\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Velikost struktury je vdy rovna souètu velikostí jednotlivıch poloek.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Unit testing pouívá sadu automaticky spouštìnıch testù pro chování celého programu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typovı systém zlepšuje monosti optimalizace\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo extern je defaultní volba pro globální promìnné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Velikost datového typu lze zjistit pomocí operátoru sizeof()\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"s øetìzci lze manipulovat s vyuitím ukazatelové aritmetiky\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pro urèení toho, zda se jedná o soubor nebo adresáø, lze na všech platformách pouít poloku d_type struktury dirent.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"vıraz array++ vrací adresu prvního prvku pole\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typová konverze na bitové úrovni mùe bıt ztrátová, pokud pøetypováváme z typu s vìtším rozsahem na typ s mìnším rozsahem\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Implementace tìla funkce je ve sloenıch závorkách\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pole hodnot je pamìovì úspornìjší ne struktura spojovaného seznamu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnnou typu const je nutné inicializovat pøi deklaraci.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce system() se pouívá pro spuštìní externího pøíkazu nebo programu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Jeden unit test by mìl testovat vdy jednu komponentu a mìl by bıt nezávislı na ostatních unit testech\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Velikosti jednotlivıch typù jsou závislé na platformì\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnná typu funkèní ukazatel umoòuje uloit adresu funkce a provést její zavolání pozdìji nad danımi argumenty \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Unit testing pouívá sadu automaticky spouštìnıch testù pro jednotlivé elementární komponenty systému\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Kadı certifikovanı UNIX musí splòovat normu POSIX\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo goto bylo z jazyka C v nejnovìjším standardu C99 odstranìno\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"vícerozmìrné pole lze realizovat jako jednorozmìrné pole\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Jazyk C je staticky typovanı jazyk\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Datovı typ enum se pouívá pouze jako vıèet pojmenovanıch celoèíselnıch kladnıch konstant\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud se chceme posunout na další prvek v souboru, pouijeme ukazatelovou aritmetiku nad ukazatelem typu FILE*.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Všechny modifikátory promìnnıch jsou pro pøekladaè jen doporuèení\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce rand() vrátí další hodnotu z pseudonáhodné sekvence v rozsahu, kterı si zvolí programátor\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Operátory & a && lze volnì zamìòovat, nebo jejich vısledek je vdy stejná logická hodnota\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Zavolání funkce free() pro dealokaci dynamicky alokované pamìti automaticky nastaví hodnotu dealokovaného ukazatele na NULL.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Program napsanı v jazyce C nemùe bıt rozšíøen o uivatelské datové typy.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Argumenty se vdy pøedávají hodnotou \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Velikost datového typu struct je taková, aby bylo moné uloit nezávisle všechny jeho poloky\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Makro assert() vypíše na standardní chybovı vıstup informace o umístìní podmínky, která se vyhodnotila na false a ukonèí bìh programu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Preprocesor umoòuje vytváøet makra s parametry, je ale vhodnìjší pouít tzv. inline funkce\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"textovı øetìzec lze ukonèit umístìním koncové nuly, dochází zároveò k dealokaci pøebyteèné pamìti\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce printf nabízí modifikátory pro vıpis èísel v desítkové, osmièkové i šestnástkové soustavì.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typová konverze na sémantické úrovni nemìní obsah pamìti, pouze mìní zpùsob její interpretace\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud chceme spustit pøíkaz pro vypsání obsahu adresáøe (ls na Unix, dir na Windows), pouijeme pøíkaz system(\"list\"), bìhové prostøedí se postará o pøeklad do správného pøíkazu dle aktuálního operaèního systému\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Protoe novı øádek je na platformì Windows kódován jako znaky \\r \\n (0D 0A hexadecimálnì), je funkce fgetc (FILE *stream) typu int, aby se oba znaky naèetly do jedné hodnoty 0x0D0A.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"øetìzcové konstanty neobsahují koncovou nulu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Pøíkaz switch lze pouít pro všechny primitivní datové typy\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pomocí automatické konverzelze pøetypovat int* na int.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Jazyk C poskytuje v normì C99 funkce pro síovou komunikaci\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo volatile u promìnné informuje pøekladaè, e musí vdy nahrát znovu obsah promìnné do registru CPU pøed jejím pouitím\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Deklarovanı typ hodnoty nelze zmìnit\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud se chceme posunout na konkrétní pozici v souboru, pouijeme funkci fseek.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pro pøístup do tøírozmìrného pole array pouíváme operátor [] a syntaxi array[i][j][k]\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"zápis mimo alokované pole je detekován u bìhem pøekladu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce clock() vrací pøiblinou dobu, po kterou byl programu pøidìlen procesor.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnná typu ukazatel nemùe bıt nulová\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pole lze inicializovat hodnotami v dobì jeho vytváøení\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Soubor stdin je soubor standardního vstupu a musí bıt programátorem otevøen pomocí funkce fopen().\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Všechny operátory mají stejnou prioritu, vyhodnocuje se vdy zleva doprava\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Poloky ve vıètovém typu enum mohou bıt indexovány pouze vzestupnì.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"s øetìzci lze manipulovat jako s polem znakù\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Novı øádek je na platformì Unix kódován jako znaky \\r \\n (0D 0A hexadecimálnì).\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce system() se pouívá pro nastavení systémové promìnné operaèního systému\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Velikost datového typu char je vdy 1 bajt (8 bitù)\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkci free() automaticky nastavuje obsah mazané pamìti na 0 nebo na jinou zadanou hodnotu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Adresu funkce získáme pomocí operátoru reference &, musíme zároveò specifikovat i argumenty, se kterımi bude funkce pozdìji volána\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Unit testy poskytují vèasnou detekci zanesení chyb pøi provádìní refactoringu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Do promìnné typu void* mùeme pøiøadit ukazatel na libovolnı jinı typ\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce scanf, pøi pouití formátovacího øetìzce \"%4d %5c\" pøedpokládá hodnoty na vstupu oddìlené bílımi znaky (mezera, tabulátor...).\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurzivní vnoøení se zastaví tím, e funkce typicky na základì podmínky nezavolá znovu sebe sama a skonèí. \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typová konverze na bitové úrovni i sémantické úrovni mùe bıt ztrátová\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo goto realizuje nepodmínìnı skok na návìští\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pomocí øetìzcové konstanty lze inicializovat promìnou typu øetìzec\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Poøadí vyhodnocení vırazù je závislé na pouitıch operátorech\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Velikost datového typu union je taková, jaká je velikost nejvìtší poloky (+ pøípadné zarovnání v pamìti)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Do promìnné typu enum nelze pøiøadit jiné hodnoty ne hodnoty specifikované v deklaraci\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud otevíráme soubor pro zápis v módu \"w\", tak dojde k vytvoøení souboru, pokud ještì neexistuje.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo goto se doporuèuje pouívat, nebo typicky vede k èitelnìjšímu a udrovatelnìjšímu kódu \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud do promìnné typu enum pøiøadíme jinou hodnotu, ne je specifikována v deklaraci, pøekladaè vdy ohlásí chybu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Memory leak oznaèuje pamì na zásobníku nebo haldì na kterou ji neexistuje ukazatel\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Pøi zavolání funkce system() se neèeká na dokonèení jím spuštìného pøíkazu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud zavøeme soubor pomocí funkce fclose(), tak pøestává bıt ukazatel na soubor validní.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Standardní knihovna jazyka C neobsahuje funkce pro práci s grafickım rozhraním (GUI)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"do hlavièkového souboru mùeme umístit i definice funkcí\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pro nastavení ètecí hlavy na konec souboru musíme projít celı soubor bajt po bajtu od zaèátku.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce malloc() vrací hodnotu NULL, pokud se dynamická alokace nezdaøí\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Operátor logického souèinu && je pravdivı pouze kdy jsou oba argumenty nepravda (FALSE)\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Debugger má pøístup do pamìti ladìného programu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pokud øetìzec neinicializujeme, tak obsahuje nedefinovaná data z pamìti \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce feof(f) vrátí nenulovou hodnotu (true) jakmile se provede ètení po konci souboru, kterı je zpøistupnìn pomocí promìnné f.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud je klíèovım slovem const oznaèena promìnná typu ukazatel, tak zmìna hodnoty ukazatele není povolena. Zmìna hodnoty v pamìti, kam ukazatel ukazuje ale povolena je.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce pro binární vyhledávání bsearch() pøijímá jako jeden z parametrù callback funkci odpovìdnou za porovnávání poloek prohledávaného pole \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud má promìnná X vıètovı typ enum, tak do ní nelze pøiøadit i hodnotu typu int, která se nenachází ve vıètovém typu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Soubor typicky zavíráme pomocí funkce fclose(). Není to ale nutné, bìhové prostøedí samo zjistí, e soubor ji není pouíván.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Pro zaèlenìní dodateèné knihovny do pøekladu pouijeme pøepínaè -l\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Operátor logického souètu || je pravdivı kdy je alespoò jeden argument pravda (TRUE)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Memory leak lze detekovat s vyuitím nástrojù, napø. Valgrind\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurzivní vnoøení se zastaví automaticky, programátor nemusí zastavení v kódu implementovat.  \"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce memset nastaví zadanou pamì na poadovanou hodnotu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"O pamì kterou alokujeme, se dále nemusíme starat. Uvolnìní zajistí automatickı garbage collector.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud pøed promìnnou uvedeme klíèové slovo const, musíme jí ihned pøiøadit hodnotu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Soubor stdout je soubor standardního vıstupu a musí bıt programátorem otevøen pomocí funkce fopen().\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurze je typicky vıraznì rychlejší jako  cyklus\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Datovı typ enum se pouívá jako vıèet pojmenovanıch celoèíselnıch konstant\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Dynamická alokace umoòuje vytvoøit datovou poloku o specifikované velikosti za bìhu programu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pro pøístup do tøírozmìrného pole array pouíváme operátor [] a syntaxi array[i,j,k]\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce pro práci s pamìtí (memXXX) jsou vdy stejnì rychlé jako funkce pro práci s øetìzci\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typovı systém urèuje pravidla, jak se mohou mìnit typy hodnot\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Standardní knihovna jazyka C obsahuje funkci pro øadící algoritmus quicksort\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"U jmen promìnnıch nezáleí na velikosti písmen\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Plytká kopie vytváøí kompletní kopii promìnné, vèetnì kopií odkazovanıch dat.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud pøed promìnnou uvedeme klíèové slovo const, mùeme zmìnit její hodnotu pozdìji v programu pøiøazením nové hodnoty do této promìnné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Ukazatel typu void* nelze vytváøet explicitnì, vzniká pouze pøi automatickém pøetypování\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurzivní volání èasto kombinuje vısledek vrácenı rekurzivním voláním s vısledkem spoètenım v rámci aktuální funkce.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud pøedáme argument pomocí hodnoty ukazatele na nìj, mùeme jej ve funkci mìnit a zmìna bude zachována i po konci funkce\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Konstanty urèující minimální a maximální hodnoty primitivních datovıch typù jsou pro rùzné platformy stejné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pøi otevøení souboru pro ètení v binárním reimu (mód \"rb\") je moné soubor naèítat po jednotlivıch bitech.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"pøi deklaraci délky øetìzce v C je nutné zapoèíst i koncovou nulu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Statická a dynamická alokace jsou plnì zamìnitelné.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce pro vstup a vıstup jsou implementovány v knihovnì s hlavièkovım souborem stdio.h.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo extern je defaultní volba pro prototyp funkce\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Struktura poloky (èlena) zøetìzeného (spojového) seznamu smí obsahovat právì jednu poloku ukazatelového typu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce scanf umoòuje naèítat hodnoty ze standardního vstupu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Mezi základní datové typy patøí integer, float, real a string\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Dynamická alokace alokuje pamì na zásobníku a promìnnou obsahující adresu na alokovanou pamì na haldì\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce main má první argument typu int se jménem argc. Tento argument mùe mít v nìkterıch pøípadech hodnotu 0.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce printf automaticky pozná typ oèekávaného argumentu na základì formátovacího øetìzce pøedaného jako první argument.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Jednotlivé poloky v datovém typu union jsou umístìny v pamìti na stejné poèáteèní adrese\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"array + 1 není validní vıraz\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Bitovı operátor ^ vrací na dané bitové pozici hodnotu 1, pokud je odpovídající bit právì jednoho argumentu roven 1\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Dynamicky alokovaná pamì bude automaticky uvolnìna po zániku posledního ukazatele na danou adresu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo static je defaultní pamìová tøída pro lokální promìnné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud zapisujeme data do souboru, musíme po zápisu posunout ukazatel za zapsaná data pomocí funkcí fgetpos a fsetpos.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"lze vytváøet pole ukazatelù a to vèetnì vícerozmìrnıch polí\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnná typu ukazatel je promìnná obsahující adresu \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce malloc() provede dynamickou alokaci pamìti a pamì inicializuje na 0\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce getenv() se pouívá pro získání systémové promìnné, napø. PATH\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pomocí klíèového slova const mùeme oznaèit i argumenty funkce\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Modifikátor otevøení souboru pro zápis na konec je \"a\".\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"vıraz array + 1 vrací adresu druhého prvku pole array \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Strict aliasing oznaèuje poadavek standardu, aby bylo moné vytvoøit dva a více ukazatelù na stejnou pamì s rùznım datovım typem\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Velikost datového typu struct je taková, jaká je velikost nejvìtší poloky (+ pøípadné zarovnání v pamìti)\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"do hlavièkového souboru typicky umisujeme deklarace knihovních funkcí\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Novı øádek je na platformì Windows kódován jako znaky \\r \\n (0D 0A hexadecimálnì).\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Velikost struktury mùe bıt vìtší ne prostı souèet velikostí jednotlivıch poloek.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Pøedpokládejte pole deklarované jako int array[10]; Je následující tvrzení pravdivé? \"vıraz array[3] vrací hodnotu ètvrtého prvku pole \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Funkce opendir() se pouívá v kombinaci s funkcí readdir() pro procházení obsahu adresáøe (soubory a podadresáøe)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Soubor vdy otevíráme pro zápis. Volitelnì mùeme zvolit otevøení i pro ètení.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce malloc() provede dynamickou alokaci pamìti o zadané délce v bajtech\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typickım øešení problému urèení posledního prvku v zøetìzeném seznamu je nastavení ukazatele na následující poloku na NULL.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Pøíkaz switch umoòuje ošetøit pøípad, kdy øídící promìnná neobsahuje ádnou z hodnot specifikovanıch klauzulemi case.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Klíèové slovo register je pro pøekladaè povinné, pøekladaè vdy umístí promìnnou do registru procesoru a optimalizuje tak rychlost\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pole mùe mít velikost zadánu pouze bìhem kompilace\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typová konverze na bitové úrovni je typicky èasovì nároènìjší\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud má promìnná X vıètovı typ enum, tak do ní lze pøiøadit i hodnotu typu int, která se nenachází ve vıètovém typu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Makro assert() má v Debug reimu i v Release reimu (definováno makro NDEBUG) stejnı vıznam\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce sprintf umoòuje vypisovat hodnoty stejnì jako printf, ale do øetìzce namísto na standardní vıstup.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnnou typu const není nutné inicializovat pøi deklaraci.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Kromì cílového konzumenta (stdout/øetìzec/, soubor) funkce printf, sprintf a fprintf fungují analogicky.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Velikost datového typu int je vdy 4 bajty (32 bitù)\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce main má první argument typu int se jménem argc. Tento argument obsahuje poèet argumentù zadanıch na pøíkazové øádce pøi spuštìní programu zvıšenı o jedna (cesta ke spouštìnému programu)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Aktuální pozici v souboru zjistíme pomocí funkce ftell().\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"u vícerozmìrnıch polí není moné pouívat ukazatelovou aritmetiku\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"V programu mohu provést dereferenci ukazatele na typ void. (pøíklad: void funkce(void * a){ *a = 10; }).\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pomocí funkce fopen lze soubor otevøít pro ètení i zápis zároveò.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce malloc() pøi alokaci automaticky inicializuje pamì na zadanou hodnotu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnné typu union nelze dynamicky alokovat\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce main má první argument typu int se jménem argc. Tento argument obsahuje hodnotu argumentù zadanıch na pøíkazové øádce pøi spuštìní programu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce fopen otevøe zadanı soubor, cesta mùe bıt absolutní i relativní.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce realloc() umoòuje zvìtšit velikost dynamicky alokované pamìti\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud otevøeme soubor pomocí fopen, získáme ukazatel na jeho zaèátek.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce realloc() umoòuje nastavit obsah dynamicky alokované pamìti na zadanou hodnotu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Deklarovanı typ hodnoty lze zmìnit, ale pouze pokud je povolena automatická typová konverze\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pøi kadém rekurzivním zavolání funkce vzniká na zásobníku novı rámec se samostatnımi lokálními promìnnımi. \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Konstanty urèující minimální a maximální hodnoty primitivních datovıch typù se mohou lišit mezi rùznımi platformami\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typovı systém urèuje pravidla, jaké operace lze provádìt nad zadanımi typy\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Všechny modifikátory promìnnıch jsou pro pøekladaè vdy povinné\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce realloc() umoòuje pøesunout dynamicky alokovanou pamìt na zadanou pozici\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Soubor stdout je soubor standardního vıstupu a je automaticky otevøen pøi zaèátku bìhu programu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Hloubka rekurze (poèet zanoøenıch volání) je omezen velikostí zásobníku.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud je promìnná 'zacatek' ukazatelem na zaèátek dynamicky alokovaného, propojeného seznamu, pak *(zacatek+4) je 4. poloka propojeného seznamu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce sscanf umoòuje naèítat hodnoty stejnì jako scanf, ale z øetìzce místo ze standardního vstupu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická typová konverze mùe probìhnout pøi pøedání argumentù funkci\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Jazyk C nepouívá zkrácené vyhodnocování logickıch vırazù, vdy jsou vyhodnoceny všechny podvırazy\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Datovı typ union je zaveden pro monost pamìové i èasové optimalizace\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"zápis mimo alokované pole je bìhem pøekladu detekován pro pole s promìnnou délkou\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická pøetypování provádí programátor automaticky pøi vytváøení funkce\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud otevíráme soubor pro ètení v módu \"r\", tak dojde k vytvoøení souboru, pokud ještì neexistuje.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická pøetypování provádí pøekladaè v dobì pøekladu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Mezi základní datové typy patøí integer, float, real, double a char\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Trojrozmìrné pole lze implementovat pomocí jednorozmìrného pole a operací sèítání a násobení\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Poøadí dvou po sobì vytvoøenıch polí v pamìti (vzájemné umístìní jejich zaèátkù) je na zásobníku i na haldì stejné.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud otevíráme soubor pro ètení v módu \"r\", tak je vrácen ukazatel NULL v pøípadì, e soubor neexistuje.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"tøírozmìrné pole hodnot typu int deklarujeme jako int array3D[X][Y][Z]; kde X, Y a Z jsou vhodné numerické konstanty.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Volání 'char *ptr = NULL; ptr = realloc(ptr, 10); free(ptr);' zpùsobí memory leak.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pro pøesné zmìøení doby trvání krátké operace lze vyuít kombinace funkce clock() a velkého mnoství opakování mìøené operace (je nutné dát pozor na optimalizaci pøekladaèe)\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Bitovı operátor << provádí negaci bitù\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud chceme zjistit aktuální pozici v souboru, pouijeme atribut struktury FILE.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Unit testy jsou primárnì urèené pro hledání novıch chyb v existujícím kódu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická typová konverze mùe probìhnout pøi vyhodnocení vırazu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud otevíráme soubor pro zápis v módu \"w\", tak otevøení sele, pokud soubor ještì neexistuje.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Dynamicky alokovaná pamì je dostupná v bloku, vekterém byla alokována. Pøed ukonèením bloku je tøeba ji explicitnì uvolnit pomocí free().\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Dynamická alokace alokuje pamì na haldì, lze vytvoøit promìnnou na haldì nebo zásobníku, která bude obsahovat adresu alokované pamìti\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pøetypováním promìnné mùeme pøijít o èast nesené informace.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce srand() nastaví poèáteèní semínko pro generovanou sekvenci, pøi stejném semínku bude i vısledná sekvence èísel stejná\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typová konverze na sémantické úrovni mùe bıt ztrátová, pokud pøetypováváme z typu s vìtším rozsahem na typ s menším rozsahem\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Hloubka rekurze (poèet zanoøenıch volání) není nièím omezená.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Promìnné mohou obsahovat v názvu pouze písmena, cifry a podtrítko\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Velikost datového typu union je taková, aby bylo moné uloit nezávisle všechny jeho poloky\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická typová konverze mùe probìhnout pøi pøiøazení hodnoty do promìnné\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurzivní funkce je funkce, která ve svém tìle volá sebe samu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce scanf pøi pouití formátovacího øetìzce \"%5c %4d\" pøedpokládá hodnoty na vstupu oddìlené støedníkem.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce printf neumoòuje vypsat adresu promìnné, pouze její hodnotu.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Soubor stdin je soubor standardního vstupu a je automaticky otevøen pøi zaèátku bìhu programu.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rozsah datového typu se znaménkem je vdy ekvivalentní rozsahu datového typu bez znaménka\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Jazyk C nepouívá typy, z dùvodu rychlosti pracuje vdy na úrovni bitù\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce malloc() a calloc() se liší pouze argumenty, ale chování mají stejné.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurzivní funkce mùe ve svém tìle obsahovat více volání sebe sama.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce pro binární vyhledávání bsearch() pøedpokládá setøízené pole, ve kterém vyhledává zadanou poloku\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce sprintf() automaticky naalokuje dostatek pamìti pro uloení vısledného øetìzce.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce free() umoòuje uvolnit dynamicky alokovanou pamì \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"zápis mimo alokované pole zpùsobí vdy vyvolání vıjimky za bìhu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce realloc() umoòuje zmìnšit velikost dynamicky alokované pamìti \"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pro práci se souborem obsahujícím široké znaky pouíváme typicky funkce z hlavièkového souboru wchar.h.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Poèet bitù v jednom znaku (char) je vdy stejnı a roven 8\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Konstanta EOF slouí pro signalizaci pokusu o ètení za koncem souboru.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce printf nabízí modifikátory pro omezení poètu vypisovanıch desetinnıch míst u reálnıch èísel.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud otevíráme soubor pro zápis v módu \"w\", tak dojde ke smazání souboru, pokud ji existuje (velikost == 0).\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pokud sele volání volání fclose(soubor), tak se souborem lze nadále pracovat (promìnná soubor byla deklarována jako FILE *).\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická pøetypování probíhá bez dodateèného zásahu programátora\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pøi kadé operaci zápisu v souboru se posune ukazatel na aktuální pozici v rámci souboru za zapsaná data.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pro jazyk C pravdivé? \"Funkce opendir() otevøe soubor adresáøe pro zápis\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Pamì alokovaná pomocí dynamické alokace je automaticky uvolnìna ve chvíli, kdy zanikne poslední ukazatel na ni\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Volání funkce fopen(filename,\"r+\") umoní ze souboru èíst ze souboru kdekoliv, ale zapisovat pouze na konec souboru.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Novı øádek je na platformì Windows kódován jako znak \\n (0A hexadecimálnì).\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Ukazatel typu void* se pouívá v pøípadì, e není nutné znát opravdovı typ ukazatele\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Automatická typová konverze mùe probìhnout pøi vrácení návratové hodnoty funkce\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce main má druhı argument typu char** se jménem argv. Tento argument obsahuje argumenty zadané na pøíkazové øádce pøi spuštìní programu. První polokou je cesta ke spouštìnému programu\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Strict aliasing je zaveden z dùvodu monosti vìtší optimalizace pøekladaèem\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Funkce fopen otevøe zadanı soubor, je nutné vdy zadat absolutní cestu\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Modifikátor otevøení souboru pro binární ètení je \"rb\".\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Typová konverze na bitové úrovni nemìní obsah pamìti, pouze mìní zpùsob její interpretace\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"za obsah øetìzce jsou povaovány znaky do prvního vıskytu koncové nuly\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Po provedení funkce realloc() je nutné zkopírovat pùvodní pamì na nové místo pomocí memcpy.\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Memory leak oznaèuje pamì na zásobníku na kterou ji neexistuje ukazatel\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Promìnná typu funkèní ukazatel specifikuje typ návratové hodnoty, jméno funkce a poèet a typ argumentù funkce\"",
+    "answers": [
+      {
+        "right": "false",
+        "body": "ano"
+      },
+      {
+        "right": "true",
+        "body": "ne"
+      }
+    ]
+  },
+  {
+    "name": "Je následující tvrzení pravdivé? \"Rekurzi je vdy moné nahradit cyklem.\"",
+    "answers": [
+      {
+        "right": "true",
+        "body": "ano"
+      },
+      {
+        "right": "false",
+        "body": "ne"
+      }
+    ]
+  }
+]
