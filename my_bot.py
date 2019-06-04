@@ -142,4 +142,4 @@ def drill():
                 return question, False
 
 client = MyClient()
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('NTgzNDQwNDAwODEyMDgxMjI2.XO8ZlA.qrNogmI07gqZWhRN3B0ob_fprPU')))
